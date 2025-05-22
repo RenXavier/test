@@ -1,0 +1,37 @@
+Laravel new flow 
+1. Nvigation.blade.php
+2. Create folder 'folder-name'
+	-create file 'index'
+3. Create controller
+4. Make route
+	check the ffg
+		-navigation route
+		-web-Directory
+
+
+Creator Access Resources
+composer create-project --prefer-dist laravel/laravel project-name "11.*"
+dist = distribution	
+
+composer require laraveldaily/larastarters --dev
+php artisan larastarters:install
+
+
+PHP COMMANDS:
+php artisan serve
+php artisan migrate
+php artisan make:controller conroller-name
+php artisan make:migration create_name_table
+php artisan make:model name
+php artisan migrate
+php artisan migrate:refresh
+
+NPM COMMANDS:
+npm install
+npm update
+npm audit
+npm audit fix-force
+npm fund 
+npm run dev
+npm run build
+
